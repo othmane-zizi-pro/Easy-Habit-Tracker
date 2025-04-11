@@ -17,6 +17,11 @@ Need help or want to report a bug?
 - Open an issue [here on GitHub](https://github.com/ç/Easy-Habit-Tracker/issues)
 - Visit our [Support Page](https://othmane-zizi-pro.github.io/Easy-Habit-Tracker/)
 
+## 🛡️ Privacy Policy
+
+Easy Habit Tracker respects your privacy. We do not collect, store, or share any personal information. All data stays on your device, and we do not use third-party tracking tools, analytics, or advertisements. The app functions offline, ensuring a safe and private experience.
+
+
 ## 📱 Download
 
 Easy Habit Tracker is available on the App Store. [Download it now!](#)
