@@ -6,8 +6,27 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXContainerItemProxy section */
+		AEF410112DA9A32600C7581A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEF40FE22DA9A06600C7581A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEF40FE92DA9A06600C7581A;
+			remoteInfo = HabiTrack;
+		};
+		AEF410202DA9A34F00C7581A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEF40FE22DA9A06600C7581A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEF40FE92DA9A06600C7581A;
+			remoteInfo = HabiTrack;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		AEF40FEA2DA9A06600C7581A /* HabiTrack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HabiTrack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEF4100D2DA9A32600C7581A /* HabiTrackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HabiTrackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEF4101A2DA9A34F00C7581A /* HabiTrackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HabiTrackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -16,10 +35,34 @@
 			path = HabiTrack;
 			sourceTree = "<group>";
 		};
+		AEF4100E2DA9A32600C7581A /* HabiTrackTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HabiTrackTests;
+			sourceTree = "<group>";
+		};
+		AEF4101B2DA9A34F00C7581A /* HabiTrackUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HabiTrackUITests;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		AEF40FE72DA9A06600C7581A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEF4100A2DA9A32600C7581A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEF410172DA9A34F00C7581A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -33,6 +76,8 @@
 			isa = PBXGroup;
 			children = (
 				AEF40FEC2DA9A06600C7581A /* HabiTrack */,
+				AEF4100E2DA9A32600C7581A /* HabiTrackTests */,
+				AEF4101B2DA9A34F00C7581A /* HabiTrackUITests */,
 				AEF40FEB2DA9A06600C7581A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -41,6 +86,8 @@
 			isa = PBXGroup;
 			children = (
 				AEF40FEA2DA9A06600C7581A /* HabiTrack.app */,
+				AEF4100D2DA9A32600C7581A /* HabiTrackTests.xctest */,
+				AEF4101A2DA9A34F00C7581A /* HabiTrackUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,6 +117,52 @@
 			productReference = AEF40FEA2DA9A06600C7581A /* HabiTrack.app */;
 			productType = "com.apple.product-type.application";
 		};
+		AEF4100C2DA9A32600C7581A /* HabiTrackTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEF410132DA9A32600C7581A /* Build configuration list for PBXNativeTarget "HabiTrackTests" */;
+			buildPhases = (
+				AEF410092DA9A32600C7581A /* Sources */,
+				AEF4100A2DA9A32600C7581A /* Frameworks */,
+				AEF4100B2DA9A32600C7581A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEF410122DA9A32600C7581A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AEF4100E2DA9A32600C7581A /* HabiTrackTests */,
+			);
+			name = HabiTrackTests;
+			packageProductDependencies = (
+			);
+			productName = HabiTrackTests;
+			productReference = AEF4100D2DA9A32600C7581A /* HabiTrackTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AEF410192DA9A34F00C7581A /* HabiTrackUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEF410222DA9A34F00C7581A /* Build configuration list for PBXNativeTarget "HabiTrackUITests" */;
+			buildPhases = (
+				AEF410162DA9A34F00C7581A /* Sources */,
+				AEF410172DA9A34F00C7581A /* Frameworks */,
+				AEF410182DA9A34F00C7581A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEF410212DA9A34F00C7581A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AEF4101B2DA9A34F00C7581A /* HabiTrackUITests */,
+			);
+			name = HabiTrackUITests;
+			packageProductDependencies = (
+			);
+			productName = HabiTrackUITests;
+			productReference = AEF4101A2DA9A34F00C7581A /* HabiTrackUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -82,6 +175,14 @@
 				TargetAttributes = {
 					AEF40FE92DA9A06600C7581A = {
 						CreatedOnToolsVersion = 16.3;
+					};
+					AEF4100C2DA9A32600C7581A = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = AEF40FE92DA9A06600C7581A;
+					};
+					AEF410192DA9A34F00C7581A = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = AEF40FE92DA9A06600C7581A;
 					};
 				};
 			};
@@ -100,12 +201,28 @@
 			projectRoot = "";
 			targets = (
 				AEF40FE92DA9A06600C7581A /* HabiTrack */,
+				AEF4100C2DA9A32600C7581A /* HabiTrackTests */,
+				AEF410192DA9A34F00C7581A /* HabiTrackUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		AEF40FE82DA9A06600C7581A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEF4100B2DA9A32600C7581A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEF410182DA9A34F00C7581A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -122,7 +239,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AEF410092DA9A32600C7581A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEF410162DA9A34F00C7581A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AEF410122DA9A32600C7581A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AEF40FE92DA9A06600C7581A /* HabiTrack */;
+			targetProxy = AEF410112DA9A32600C7581A /* PBXContainerItemProxy */;
+		};
+		AEF410212DA9A34F00C7581A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AEF40FE92DA9A06600C7581A /* HabiTrack */;
+			targetProxy = AEF410202DA9A34F00C7581A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		AEF40FF32DA9A06700C7581A /* Debug */ = {
@@ -256,16 +400,17 @@
 				DEVELOPMENT_TEAM = QR37H9V73U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Habits;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.othmanezizi.HabiTrack;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -284,21 +429,92 @@
 				DEVELOPMENT_TEAM = QR37H9V73U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Habits;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.othmanezizi.HabiTrack;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AEF410142DA9A32600C7581A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QR37H9V73U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.othmanezizi.HabiTrackTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HabiTrack.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HabiTrack";
+			};
+			name = Debug;
+		};
+		AEF410152DA9A32600C7581A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QR37H9V73U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.othmanezizi.HabiTrackTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HabiTrack.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HabiTrack";
+			};
+			name = Release;
+		};
+		AEF410232DA9A34F00C7581A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QR37H9V73U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.othmanezizi.HabiTrackUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HabiTrack;
+			};
+			name = Debug;
+		};
+		AEF410242DA9A34F00C7581A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QR37H9V73U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.othmanezizi.HabiTrackUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HabiTrack;
 			};
 			name = Release;
 		};
@@ -319,6 +535,24 @@
 			buildConfigurations = (
 				AEF40FF62DA9A06700C7581A /* Debug */,
 				AEF40FF72DA9A06700C7581A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEF410132DA9A32600C7581A /* Build configuration list for PBXNativeTarget "HabiTrackTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEF410142DA9A32600C7581A /* Debug */,
+				AEF410152DA9A32600C7581A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEF410222DA9A34F00C7581A /* Build configuration list for PBXNativeTarget "HabiTrackUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEF410232DA9A34F00C7581A /* Debug */,
+				AEF410242DA9A34F00C7581A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
