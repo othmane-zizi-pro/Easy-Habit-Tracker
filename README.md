@@ -14,14 +14,12 @@
 
 Need help or want to report a bug?
 
-- Open an issue [here on GitHub](https://github.com/yourusername/Easy-Habit-Tracker/issues)
-- Visit our [Support Page](https://yourusername.github.io/Easy-Habit-Tracker/)
-
-> Replace `yourusername` with your actual GitHub username.
+- Open an issue [here on GitHub](https://github.com/ç/Easy-Habit-Tracker/issues)
+- Visit our [Support Page](https://othmane-zizi-pro.github.io/Easy-Habit-Tracker/)
 
 ## 📱 Download
 
-Easy Habit Tracker is available on the App Store. [Download it now!](#) *(Add your actual App Store link here)*
+Easy Habit Tracker is available on the App Store. [Download it now!](#)
 
 ---
 
