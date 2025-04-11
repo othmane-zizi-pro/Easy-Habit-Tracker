@@ -1,6 +1,6 @@
-# HabitTrack – Build Better Habits, One Day at a Time
+# Easy Habit Tracker – Build Better Habits, One Day at a Time
 
-**HabitTrack** is the ultimate companion for creating and maintaining positive habits. Whether you're aiming to drink more water, exercise regularly, or read daily, HabitTrack makes it easy to stay on track and achieve your goals.
+**Easy Habit Tracker** is the ultimate companion for creating and maintaining positive habits. Whether you're aiming to drink more water, exercise regularly, or read daily, HabitTrack makes it easy to stay on track and achieve your goals.
 
 ## 🌟 Features
 
@@ -10,17 +10,19 @@
 - **Streak Goals**: Build momentum with streaks and celebrate your consistency.
 - **Beautiful Design**: A clean, user-friendly interface that makes habit tracking a joy.
 
-## 🙋‍♂️ Support
+## 🙋 Support
 
 Need help or want to report a bug?
 
-- Open an issue here on GitHub
-- Visit our [Support Page](https://yourusername.github.io/habittrack-support) *(replace this with your actual GitHub Pages URL)*
+- Open an issue [here on GitHub](https://github.com/yourusername/Easy-Habit-Tracker/issues)
+- Visit our [Support Page](https://yourusername.github.io/Easy-Habit-Tracker/)
+
+> Replace `yourusername` with your actual GitHub username.
 
 ## 📱 Download
 
-HabitTrack is available on the App Store. [Download it now!](#) *(Replace with actual App Store link)*
+Easy Habit Tracker is available on the App Store. [Download it now!](#) *(Add your actual App Store link here)*
 
 ---
 
-Thanks for using HabitTrack! Keep building those habits, one day at a time 💪
+Thanks for using Easy Habit Tracker! Keep building those habits, one day at a time 💪
